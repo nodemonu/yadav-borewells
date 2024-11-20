@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yadav Borewells & Constructions - Providing reliable borewell and construction services for over 20 years.">
+    <meta name="keywords" content="Borewells, Borewell Drilling, Construction, Water Management, Home Construction, Landscaping, Yadav Borewells & Constructions">
+    <meta name="author" content="Yadav Borewells & Constructions">
+    <meta property="og:title" content="Yadav Borewells & Constructions">
+    <meta property="og:description" content="Providing reliable borewell and construction services for over 20 years.">
+    <meta property="og:image" content="images/team.jpg">
+    <meta property="og:url" content="https://www.yadabborewells.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Yadav Borewells & Constructions</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body class="bg-gray-50 scroll-smooth">
+
+    <!-- Header with Navigation -->
+    <header class="bg-blue-600 text-white py-6 fixed w-full z-10 top-0">
+        <nav class="container mx-auto flex justify-between items-center">
+            <!-- Logo Space -->
+            <div class="text-2xl font-bold">
+                <!-- Add your logo here -->
+                <img src="images/logo.png" alt="Yadav Borewells" class="h-12">
+            </div>
+            <ul class="flex space-x-8 hidden md:flex">
+                <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+                <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+                <li><a href="#services" class="hover:text-yellow-400">Services</a></li>
+                <li><a href="#portfolio" class="hover:text-yellow-400">Portfolio</a></li>
+                <li><a href="#testimonial" class="hover:text-yellow-400">Testimonials</a></li>
+                <li><a href="#faq" class="hover:text-yellow-400">FAQ</a></li>
+                <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+            </ul>
+
+            <!-- Hamburger for mobile -->
+            <div class="md:hidden flex items-center cursor-pointer" onclick="toggleMenu()">
+                <div class="w-6 h-0.5 bg-white my-1"></div>
+                <div class="w-6 h-0.5 bg-white my-1"></div>
+                <div class="w-6 h-0.5 bg-white my-1"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="bg-blue-600 text-white fixed inset-0 flex flex-col items-center justify-center space-y-4 hidden">
+        <a href="#home" class="text-xl">Home</a>
+        <a href="#about" class="text-xl">About</a>
+        <a href="#services" class="text-xl">Services</a>
+        <a href="#portfolio" class="text-xl">Portfolio</a>
+        <a href="#testimonial" class="text-xl">Testimonials</a>
+        <a href="#faq" class="text-xl">FAQ</a>
+        <a href="#contact" class="text-xl">Contact</a>
+    </div>
+
+   <section id="home" class="h-screen flex items-center justify-center bg-cover bg-center relative" style="background-image: url('images/welcome-background.jpg');">
+    <div class="absolute inset-0 bg-black opacity-50"></div> <!-- Optional dark overlay -->
+    <div class="text-center text-white z-10">
+        <h2 class="text-4xl font-bold mb-4 animate__animated animate__fadeIn">Welcome to Yadav Borewells & Constructions</h2>
+        <p class="text-lg animate__animated animate__fadeIn delay-1s">Providing reliable borewell and construction services for over 20 years!</p>
+    </div>
+</section>
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-100" data-aos="fade-up">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">About Us</h2>
+            <p class="text-lg mb-6 px-4 sm:px-8 md:px-16 lg:px-32">With over 20 years of experience, Yadav Borewells & Constructions has been a trusted name in the borewell drilling and construction industry. We take pride in providing top-quality services with a focus on customer satisfaction.</p>
+            <img src="images/team.jpg" alt="Our Team" class="mx-auto rounded-full shadow-lg max-w-md">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white" data-aos="fade-up">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Our Services</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+                <!-- Add all services here -->
+                <div class="bg-blue-500 p-8 rounded-lg shadow-lg text-white hover:scale-105 hover:shadow-xl transition-transform duration-300">
+                    <h3 class="text-xl font-semibold mb-4">Borewell Drilling</h3>
+                    <p>We provide professional and reliable borewell drilling services for homes, farms, and businesses.</p>
+                </div>
+                <div class="bg-blue-500 p-8 rounded-lg shadow-lg text-white hover:scale-105 hover:shadow-xl transition-transform duration-300">
+                    <h3 class="text-xl font-semibold mb-4">Water Management</h3>
+                    <p>Expert water management services for effective water conservation and distribution.</p>
+                </div>
+                <div class="bg-blue-500 p-8 rounded-lg shadow-lg text-white hover:scale-105 hover:shadow-xl transition-transform duration-300">
+                    <h3 class="text-xl font-semibold mb-4">Home Construction</h3>
+                    <p>We offer high-quality home construction services tailored to your needs.</p>
+                </div>
+                <div class="bg-blue-500 p-8 rounded-lg shadow-lg text-white hover:scale-105 hover:shadow-xl transition-transform duration-300">
+                    <h3 class="text-xl font-semibold mb-4">Landscaping</h3>
+                    <p>Transform your outdoor space with our professional landscaping services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-gray-100" data-aos="fade-up">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Our Portfolio</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+                <img src="images/borewell.jpg" alt="Borewell Project" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-all duration-300">
+                <img src="images/home_construction.jpg" alt="Home Construction" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-all duration-300">
+                <img src="images/water_management.jpg" alt="Water Management" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-all duration-300">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="testimonial" class="py-20 bg-white" data-aos="fade-up">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Client Testimonials</h2>
+            <div class="flex justify-center space-x-8">
+                <div class="max-w-xs text-center">
+                    <p class="italic text-lg mb-4">"Yadav Borewells provided excellent services. Our borewell was drilled professionally and efficiently. Highly recommended!"</p>
+                    <p class="font-semibold">Rachit Aggarwal</p>
+                    <p class="text-gray-500">Customer</p>
+                </div>
+                <div class="max-w-xs text-center">
+                    <p class="italic text-lg mb-4">"They built our dream home on time and within budget. The team was professional and courteous throughout the process."</p>
+                    <p class="font-semibold">Prateek Sharma</p>
+                    <p class="text-gray-500">Customer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- FAQ Section -->
+    <section id="faq" class="py-20 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
+            <div class="text-left max-w-4xl mx-auto">
+                <div class="mb-6">
+                    <h3 class="text-xl font-semibold">What services do you offer?</h3>
+                    <p>We offer borewell drilling, water management, home construction, and landscaping services.</p>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-xl font-semibold">How long have you been in business?</h3>
+                    <p>We have over 20 years of experience in the borewell and construction industry.</p>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-xl font-semibold">What areas do you serve?</h3>
+                    <p>We serve residential, commercial, and industrial clients throughout the region.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Contact Box -->
+    <div class="fixed bottom-0 right-0 p-4 bg-blue-600 text-white rounded-full mb-8 mr-8">
+        <a href="https://wa.me/9871203448" target="_blank" class="flex items-center space-x-2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="w-8 h-8">
+            <span class="font-semibold">Chat with us on WhatsApp</span>
+        </a>
+    </div>
+    <!-- Get a Quotation Section -->
+<section id="get-quotation" class="py-20 bg-gray-100" data-aos="fade-up">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">Get a Free Quote Today!</h2>
+        <p class="text-lg mb-8">Looking for reliable borewell and construction services? Request a quote now and get started with your project!</p>
+        
+        <!-- Email Contact Button -->
+        <a href="mailto:youremail@example.com?subject=Get a Quotation&body=Hello, I am interested in getting a quotation for borewell and construction services." class="bg-blue-600 text-white p-4 rounded-lg shadow-lg hover:bg-blue-700 transition-all duration-300">
+            Request a Quote via Email
+        </a>
+    </div>
+</section>
+
+    <!-- Footer Section -->
+    <footer class="bg-blue-600 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Yadav Borewells & Constructions. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mobile Menu Toggle -->
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+
+</html>
